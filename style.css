@@ -23,6 +23,22 @@ li {
 }
 
 img {
-    width: 420px;
-    height: 350px;
+    width: 480px;
+    height: 250px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
 }
