@@ -41,4 +41,24 @@ img {
 .item {
     width: 200px;
     height: 200px;
+    border-radius: 20px;
+}
+
+h2 {
+    margin: 50px 0;
+}
+
+.quote {
+    margin: 200px 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.phrase {
+    text-align: left;
+}
+
+.source {
+    text-align: right;
 }
