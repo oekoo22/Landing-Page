@@ -62,3 +62,23 @@ h2 {
 .source {
     text-align: right;
 }
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sub-card {
+    display: flex;
+    justify-content: center;
+    margin: 50px 200px;
+    padding: 20px 80px;
+    border: 2px solid black;
+
+}
+
+.sub-text {
+    margin-right: 125px; 
+}
