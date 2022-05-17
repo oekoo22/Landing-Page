@@ -1,9 +1,28 @@
+body {
+    overflow-x: hidden;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.card-section {
+    background-color: #1F2937;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-top: -100px;
+    padding-bottom: 100px;
+    padding-top: 100px; 
+    overflow-x: hidden;
+}
+
+.card {
+    padding-bottom: 50px;
+    padding-top: 75px;
 }
 
 ul {
@@ -49,18 +68,23 @@ h2 {
 }
 
 .quote {
-    margin: 200px 200px;
+ 
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-left: -100px;
+    margin-right: -100px;
+    background-color: #E5E7EB;
 }
 
 .phrase {
     text-align: left;
+    margin: 50px 200px;
 }
 
 .source {
     text-align: right;
+    margin: 50px 200px;
 }
 
 .subscribe {
@@ -87,4 +111,9 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-bottom: -100px;
+    overflow-y: hidden;
 }
