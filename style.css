@@ -10,6 +10,41 @@ body {
     margin-right: 200px;
 }
 
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .hero-text  {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information-text {
+    color: #1F2937;
+}
+
+button, .sub-card {
+    background-color: #3882F6;
+}
+
 .card-section {
     background-color: #1F2937;
     margin-left: -100px;
@@ -48,6 +83,7 @@ img {
 
 .image-section {
     text-align: center;
+    
 }
 
 .image-container {
@@ -77,16 +113,23 @@ h2 {
     background-color: #E5E7EB;
 }
 
-.phrase {
+.phrase, .source {
     text-align: left;
     margin: 50px 200px;
+    
+}
+
+.phrase {
+    font-size: 36px;
+    font-style: italic;
 }
 
 .source {
+    color: #1F2937;
+    font-weight: bolder;
     text-align: right;
-    margin: 50px 200px;
+    font-size: 24px;
 }
-
 .subscribe {
     display: flex;
     justify-content: center;
