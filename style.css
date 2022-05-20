@@ -8,6 +8,7 @@ body {
     align-items: center;
     margin-left: 200px;
     margin-right: 200px;
+    
 }
 
 h3 {
@@ -54,6 +55,7 @@ button, .sub-card {
     margin-left: 0;
     padding: 15px 25px;
     text-align: left;
+    box-shadow: .75px .75px black
 }
 
 .card-section {
@@ -94,6 +96,8 @@ img {
 
 .image-section {
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
     
 }
 
@@ -122,6 +126,7 @@ h2 {
     margin-left: -100px;
     margin-right: -100px;
     background-color: #E5E7EB;
+    padding: 120px 100px;
 }
 
 .phrase, .source {
@@ -159,6 +164,8 @@ h2 {
     color: #E5E7EB;
     font-weight: bold;
     border-radius: 10px;
+    padding: 60px 80px;
+    margin: 120px 180px;
 
 }
 
@@ -184,5 +191,6 @@ h2 {
     font-weight: bold;
     margin: 25px 25px;
     padding: 0 25px;
+    box-shadow: .75px .75px #E5E7EB;
 
 }
