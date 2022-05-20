@@ -45,6 +45,17 @@ button, .sub-card {
     background-color: #3882F6;
 }
 
+.card-button {
+    border: #1F2937 solid 1px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-weight: 900;
+    margin: 25px 25px;
+    margin-left: 0;
+    padding: 15px 25px;
+    text-align: left;
+}
+
 .card-section {
     background-color: #1F2937;
     margin-left: -100px;
@@ -122,11 +133,13 @@ h2 {
 .phrase {
     font-size: 36px;
     font-style: italic;
+    font-weight: 100;
+    color: #1F2937;;
 }
 
 .source {
     color: #1F2937;
-    font-weight: bolder;
+    font-weight: 900;
     text-align: right;
     font-size: 24px;
 }
@@ -142,7 +155,10 @@ h2 {
     justify-content: center;
     margin: 50px 200px;
     padding: 20px 80px;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 10px;
 
 }
 
@@ -159,4 +175,14 @@ h2 {
     margin-right: -100px;
     margin-bottom: -100px;
     overflow-y: hidden;
+}
+
+.sub-button {
+    border: #E5E7EB solid 1px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-weight: bold;
+    margin: 25px 25px;
+    padding: 0 25px;
+
 }
